@@ -1,0 +1,66 @@
+.header {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  margin-left: 20px;
+}
+
+.nav p {
+  margin-right: 50px;
+  padding: 2px 10px;
+  border-radius: 25px;
+  background-color: rgb(222, 185, 185);
+}
+
+.expenseList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.expenseList li {
+  background-color: rgb(222, 185, 185);
+  padding: 2px 6px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+
+.expenseList li:first-child {
+  margin-right: 10px;
+}
+
+.expenseList li:hover {
+  cursor: pointer;
+}
+
+.expenseList li a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+  }
+  
+
+  .logoutButton{
+    margin-right: 10px;
+}
+
+
+
+.welcomePic{
+  width: 100vw;
+  height: 88vh;
+}

@@ -1,0 +1,40 @@
+.userForm{
+    width: 50rem;
+    padding: 1rem;
+    position: relative;
+    left: 20rem;
+    top: 3rem;
+}
+
+.formHeader{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+
+}
+
+.formHeader h5{
+    margin: 0px;
+}
+
+.userDetails {
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name label {
+  margin-right: 9px;
+}
+
+.url label {
+  margin-right: 9px;
+}
+
+.updateButton{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}

@@ -1,0 +1,106 @@
+.sidebaroptions {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0px 25px;
+  margin-right: 20px;
+}
+.inbox_icon {
+  color: rgb(94, 94, 94);
+  font-size: 20px;
+  width: 20px;
+}
+.sidebaroptions h4 {
+  font-size: 14px;
+  flex: 1;
+  margin-left: 10px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.sidebaroptions p {
+  opacity: 0;
+  color: rgb(94, 94, 94);
+  font-size: 12px;
+}
+
+.sidebaroptions:hover{
+   cursor: pointer;
+   background-color: whitesmoke;
+  }
+
+.sidebaroptions--active {
+  background-color: #fce8e6;
+}
+
+.sidebaroptions--active h4,
+.sidebaroptions--active p,
+.sidebaroptions--active .inbox_icon {
+  color: red;
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 1230px) {
+  .sidebaroptions svg{
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    width: 15px;
+  }
+
+  .sidebaroptions h4 {
+  font-size: 14px;
+  flex: 1;
+  margin-left: 10px;
+  font-weight: normal;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .sidebaroptions svg{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+    width: 15px;
+  }
+
+  .sidebaroptions h4 {
+  font-size: 9px;
+  flex: 1;
+  margin-left: 8px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+.sidebaroptions p {
+  margin-left: 8px;
+  font-size: 10px;
+}
+}
+
+
+@media only screen and (max-width: 470px) {
+  .sidebaroptions svg{
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    width: 15px;
+  }
+
+  .sidebaroptions h4 {
+  font-size: 7px;
+  flex: 1;
+  margin-left: 8px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+.sidebaroptions p {
+  margin-left: 8px;
+  font-size: 8px !important;
+}
+}

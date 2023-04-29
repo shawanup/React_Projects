@@ -1,0 +1,33 @@
+.completePage{
+    background-color: white;
+    height: 100vh;
+}
+
+.header{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h4{
+    margin-left: 20px;
+}
+
+.nav p{
+    margin-right: 50px;
+    padding: 2px 15px;
+    border-radius: 25px;
+    font-size: smaller;
+    background-color: rgb(222, 185, 185);
+}
+
+.logouButton{
+    margin-right: 10px;
+}

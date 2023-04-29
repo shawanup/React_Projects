@@ -1,0 +1,71 @@
+.expenses {
+  display: flex;
+  padding: 2rem;
+  padding-top: 3rem;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(21, 18, 18, 0.201);
+  width: 80%;
+  position: relative;
+  top: 5rem;
+  min-height: 15rem;
+  max-height: 25rem;
+
+  box-sizing: border-box;
+}
+
+.expensesContainer h1 {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: 5rem;
+  left: 35rem;
+}
+
+.expenseItemContainer {
+  /* background-color: blueviolet; */
+  padding: 1rem;
+  /* margin-top: 2rem; */
+  overflow: auto;
+}
+
+.expenseHeader {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expenseHomebtn {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  background-color: rgb(222, 185, 185);
+}
+
+.toggleBtn {
+  margin-right: 1rem;
+}
+
+.expenseHomebtn:hover {
+  cursor: pointer;
+}
+
+#light {
+  background-color: white;
+  height: 100vh;
+}
+
+#dark h1,
+#dark h3 {
+  color: white;
+}
+
+
+.headerbtn
+{
+  display: flex;
+  flex-direction: row;
+}

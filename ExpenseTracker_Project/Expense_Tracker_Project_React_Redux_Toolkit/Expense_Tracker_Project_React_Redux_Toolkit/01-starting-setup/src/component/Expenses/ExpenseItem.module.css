@@ -1,0 +1,16 @@
+.expenseItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60rem;
+    background-color: blueviolet;
+    margin-bottom: 1rem;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.expenseItem p{
+    width: 6rem;
+    word-wrap: break-word;
+}

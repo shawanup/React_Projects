@@ -1,0 +1,72 @@
+.expenseFormContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* background-image:url('../../assests/images.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.expenseForm {
+  background-color: aqua;
+  width: 35rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url('../../assests/Pie_Chart_and_Calculator_Green_Background-min.png') ;
+}
+
+.expenseHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.expenseHeader h1 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 1rem;
+}
+
+.textNumber {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.textNumber input[type="text"] {
+  margin-right: 1rem;
+  width: 15rem;
+  padding: 0.5rem;
+}
+
+.amountButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.amountButton input {
+  width: 8rem;
+  padding: 0.5rem;
+  margin-right: 0.6rem;
+}
+
+.amountButton button {
+  color: green;
+  border: none;
+  border-radius: 50%;
+  padding: 0px;
+  font-size: 2rem;
+}
+
+
+.category label{
+    margin-right: 1rem;
+}

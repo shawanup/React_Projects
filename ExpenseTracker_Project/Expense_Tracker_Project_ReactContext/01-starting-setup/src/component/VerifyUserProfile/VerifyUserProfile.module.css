@@ -1,0 +1,21 @@
+.verify{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.verify button{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(211, 120, 120);
+  border: none;
+  border-radius: 5px;
+}
+
+.verify button:hover{
+   cursor: pointer;
+}
