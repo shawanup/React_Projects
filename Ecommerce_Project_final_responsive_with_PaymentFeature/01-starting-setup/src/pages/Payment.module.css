@@ -1,0 +1,55 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    
+}
+
+.form{
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardNumber,.StreetAddress,.Country{
+    outline: none;
+    /* border: none; */
+     width: 15rem;
+     margin:0.5rem
+}
+
+.City,.State,.ZipCode{
+    width: 4.7rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.btn{
+    cursor: pointer;
+padding: 0.2rem;
+border-radius: 0.5rem;
+outline: none;
+border: none;
+margin: 0.3rem;
+}
+
+.paymentSuccessful{
+    background-color: aquamarine;
+    padding: 0.5rem;
+    position: absolute;
+}

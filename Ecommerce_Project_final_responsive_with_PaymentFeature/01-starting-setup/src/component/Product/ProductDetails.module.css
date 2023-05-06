@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 370px;
+}
+
+.right{
+    display: flex;
+    margin-left: 50px;
+}
+
+.left{
+    margin: 5px 50px;
+}
+
+.right>p{
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+.btn1{
+ padding: 10px;
+ outline: none;
+ border: none;
+ color: white;
+ font-weight: bolder;
+ font-size: 20px;
+ border-radius: 25px;
+}
+
+.btn1:first-child{
+    margin-right: 10px;
+    background-color: orange;
+}
+
+.btn1:nth-child(2){
+    background-color:orangered
+}
+
+.addCartIcon{
+    margin-right: 5px;
+  
+}
+
+.buyNowIcon{
+    margin-right: 5px;
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+
+
+@media screen and (max-width: 620px) {
+    .btn1{
+        font-weight: bolder;
+        font-size: 15px;
+       }
+       
+    
+    .right>p{
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .btn1{
+        font-weight: bolder;
+        font-size: 10px;
+       }
+
+
+
+       .right>p{
+        margin-right: 10px;
+        font-size: 0.8rem;
+      white-space: nowrap;
+    }
+  
+}
+
+
+@media screen and (max-width: 380px) {
+    .btn1{
+        font-weight: bolder;
+        font-size: 8px;
+       }
+  
+}
