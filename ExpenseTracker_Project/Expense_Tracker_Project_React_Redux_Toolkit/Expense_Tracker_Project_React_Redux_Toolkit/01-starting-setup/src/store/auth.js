@@ -17,12 +17,13 @@ const authSlice = createSlice({
   initialState: initialState,
   reducers: {
     login(state, action) {
-      state.isAuthenticated = !state.isAuthenticated;
+      state.isAuthenticated = true;
       state.token = action.payload.token;
       state.email = action.payload.email;
       localStorage.setItem("token", action.payload.token);
     },
     logout(state) {
+      state.isAuthenticated = false;
       localStorage.removeItem("token");
       localStorage.removeItem("Email");
       localStorage.removeItem("toggle");

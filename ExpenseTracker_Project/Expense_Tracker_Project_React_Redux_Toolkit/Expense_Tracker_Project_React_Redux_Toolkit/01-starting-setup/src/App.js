@@ -16,6 +16,7 @@ function App() {
   const isAuth = useSelector((state) => state.auth.isAuthenticated);
   const dispatch = useDispatch();
 
+  console.log('isAuth',isAuth);
   let url =
     "https://expensetracker-c07a2-default-rtdb.firebaseio.com/expense.json";
   useEffect(() => {
@@ -47,9 +48,9 @@ function App() {
         <Route path="/" exact>
           <AuthPage />
         </Route>
-        <Route path="/welcome">
-          {/* {isAuth && <Welcome />} */}
-          <Welcome />
+        <Route path="/welcome" exact>
+          {isAuth && <Welcome />}
+          {/* <Welcome /> */}
         </Route>
         <Route path="/complete" exact>
           <CompletePage />
