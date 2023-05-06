@@ -52,6 +52,8 @@ function Compose() {
     subjectRef.current.value = "";
     messageRef.current.value = "";
 
+    console.log(serverTimestamp(),'serverrttttttt')
+
     db.collection("SentMails")
       .doc(user.email)
       .collection("mail")

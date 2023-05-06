@@ -37,7 +37,7 @@ else{
           <img src={url} alt="img2" width="300px" height="200px"></img>
         </div>
         <div className={classes.btn}>
-          <Button className={classes.btn1}>
+          <Button className={classes.btn1} >
             <AiOutlineShoppingCart className={classes.addCartIcon}/>
             Add to cart
           </Button>

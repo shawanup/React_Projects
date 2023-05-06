@@ -26,7 +26,7 @@ function EmailList() {
       .collection("mail")
       .orderBy("timestamp", "desc")
       .onSnapshot((snapshot) => {
-        console.log(snapshot);
+        console.log(snapshot,'snapshot');
         dispatch(
           mailAction.setReceivedMails(
             snapshot.docs.map((doc) => {
@@ -46,7 +46,7 @@ function EmailList() {
       .collection("mail")
       .orderBy("timestamp", "desc")
       .onSnapshot((snapshot) => {
-        console.log(snapshot);
+        console.log(snapshot,'snapshotddddddddddd');
         dispatch(
           mailAction.setSentMails(
             snapshot.docs.map((doc) => {
