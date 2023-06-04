@@ -22,8 +22,8 @@ const MyWorkDetails = [
   },
   {
     chref:
-      "https://github.com/shawanup/React_Projects/tree/main/ExpenseTracker_Project/Expense_Tracker_Project_React_Redux_Toolkit/Expense_Tracker_Project_React_Redux_Toolkit",
-    dhref: "https://expensetracker-c07a2.firebaseapp.com/",
+      "https://github.com/shawanup/React_Projects/tree/main/myPortfolioWebsite",
+    dhref: "https://anup-portfolio-9a772.web.app/",
     workName: "My Portfolio",
     src: "/work_assets/portfolio.png",
   },
