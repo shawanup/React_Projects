@@ -1,0 +1,129 @@
+.about {
+  height: 100vh;
+  padding-top: 8rem;
+}
+
+.about h1 {
+  text-shadow: 2px 2px #ff0000;
+}
+.about span {
+  color: rgb(137, 56, 180) !important;
+}
+
+.left img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(230, 55, 55, 0.836));
+  transition: var(--transition);
+}
+
+.left img:hover {
+  transform: scale(1.1);
+}
+
+.left {
+  width: 30%;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+.right {
+  width: 60%;
+  text-align: start;
+  margin-right: 3rem;
+}
+
+.about_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 2;
+  align-items: center;
+}
+
+/* =====================>small screen(1000px)<============================= */
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    height: 100vh;
+    padding-top: 5rem;
+  }
+
+  .about h1 {
+    text-shadow: 2px 2px #ff0000;
+    margin-bottom: 10rem;
+  }
+  .left img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 2rem;
+  }
+
+  .right {
+    font-size: medium;
+  }
+
+  .right p {
+    font-size: 1rem;
+  }
+}
+
+/* =====================>small screen(750px)<============================= */
+
+@media only screen and (max-width: 750px) {
+  .about h1 {
+    text-shadow: 2px 2px #ff0000;
+    margin-bottom: 5rem;
+  }
+
+  .left img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  .left {
+    width: 30%;
+    margin-right: 2rem;
+    margin-left: 0rem;
+  }
+
+  .right {
+    width: 80%;
+    margin-right: 0rem;
+  }
+
+  .about_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    align-items: center;
+  }
+}
+
+/* =====================>small screen(500px)<============================= */
+
+@media only screen and (max-width: 500px) {
+  .left img {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 2rem;
+  }
+
+  .right {
+    font-size: medium;
+  }
+
+  .right p {
+    font-size: 1rem;
+  }
+
+  .about_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    align-items: center;
+  }
+}

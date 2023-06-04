@@ -1,0 +1,73 @@
+.myWork {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+  margin-bottom: 20rem;
+  box-sizing: border-box;
+}
+
+.myWork h1 {
+  text-shadow: 2px 2px var(--color-red);
+}
+
+.myWork h1 span {
+  color: rgb(137, 56, 180) !important;
+}
+
+.myworklist {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 350px)) !important;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.cards {
+  box-shadow: 5px 10px 18px #2c17b3;
+  overflow: hidden;
+}
+
+.card img {
+  height: 10rem;
+  object-fit: contain;
+}
+
+.card-img-overlay {
+  padding: 0 !important;
+  top: 7rem !important;
+}
+
+.card-img-overlay button {
+  margin: 0 0.5rem !important;
+}
+
+.card-body {
+  background-color: var(--color-bg) !important;
+}
+
+.cards img {
+  transform: scaleX(1);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.cards img:hover {
+  transform: scaleX(1.5);
+  cursor: pointer;
+}
+
+/* =====================>small screen(750px)<============================= */
+
+@media only screen and (max-width: 750px) {
+  .myWork {
+    margin-bottom: 80rem;
+  }
+
+  .myworklist {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 300px)) !important;
+  }
+}
