@@ -1,0 +1,12 @@
+Redux Toolkit - https://www.npmjs.com/package/@reduxjs/toolkit
+React Redux - https://www.npmjs.com/package/react-redux
+Axios - https://www.npmjs.com/package/axios-react
+React Player - https://www.npmjs.com/package/react-player
+Dayjs - https://www.npmjs.com/package/dayjs
+React Router DOM - https://www.npmjs.com/package/react-router-dom
+React Icons - https://www.npmjs.com/package/react-icons
+React Circular Progressbar - https://www.npmjs.com/package/react-circular-progressbar
+React Infinite Scroll - https://www.npmjs.com/package/react-infinite-scroll-component
+React Lazy Load Image - https://www.npmjs.com/package/react-lazy-load-image-component
+Swiper: https://swiperjs.com/
+Movie Database: https://www.themoviedb.org/

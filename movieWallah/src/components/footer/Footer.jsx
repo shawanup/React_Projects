@@ -48,6 +48,7 @@ const Footer = () => {
             </a>
           </span>
         </div>
+        <div className="copyrightTxt"><small>Created By <a href='#'>Anup Shaw</a> |<span className='fa fa-copyright'> &copy; </span>2023 All rights reserved</small><br /></div>
       </ContentWrapper>
     </footer>
   );
