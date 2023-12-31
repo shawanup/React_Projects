@@ -52,6 +52,13 @@ function Skill() {
                 <small>Intermediate</small>
               </div>
             </article>
+            <article className="skill_list">
+              <BsFillPatchCheckFill />
+              <div className="skill_detail">
+                <h5>SCSS</h5>
+                <small>Intermediate</small>
+              </div>
+            </article>
           </div>
         </section>
         <section className="backend" data-aos="zoom-in">

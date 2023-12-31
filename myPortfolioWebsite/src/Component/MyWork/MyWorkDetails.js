@@ -1,6 +1,13 @@
 const MyWorkDetails = [
   {
     chref:
+      "https://github.com/shawanup/React_Projects/tree/main/movieWallah",
+    dhref: "https://moviewallah-af89b.web.app/",
+    workName: `Movie-Wallah(Movie App)`,
+    src: "/work_assets/movieWallah.png",
+  },
+  {
+    chref:
       "https://github.com/shawanup/React_Projects/tree/main/MailBox_Clone_final_Responsive",
     dhref: "https://mailclone-7456e.firebaseapp.com/",
     workName: `Gmail Clone`,
